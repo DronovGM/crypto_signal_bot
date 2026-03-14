@@ -1,6 +1,7 @@
 import asyncio
 import json
 import websockets
+import config 
 
 BINANCE_WS = "wss://stream.binance.com:9443/ws/!ticker@arr"
 
