@@ -1,4 +1,6 @@
-TOKEN = "8415235019:AAF-NqScjK726hiBwA8x-nCIkH-5ji6uwE4"
+import os
+
+TOKEN = os.getenv("TOKEN")
 
 CHANNEL_ID = -1003789927468
 
