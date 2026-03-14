@@ -3,6 +3,7 @@ from aiogram import Bot, Dispatcher
 import config
 from services.binance_api import get_top_volume_symbols
 from scanners.price_scanner import scanner
+from scanners.binance_ws import websocket_scanner
 
 bot = Bot(token=config.TOKEN)
 dp = Dispatcher()
