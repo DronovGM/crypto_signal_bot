@@ -13,7 +13,6 @@ async def main():
     symbols = await get_top_volume_symbols(100)
     print(f"Loaded coins: {len(symbols)}")
     asyncio.create_task(scanner(bot, symbols))
-    asyncio.create_task(websocket_scanner(bot))
     await dp.start_polling(bot)
 
 if __name__ == "__main__":
