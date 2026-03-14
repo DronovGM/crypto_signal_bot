@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../__pycache__"
+		},
+		{
+			"path": "../database"
+		},
+		{
+			"path": "../handlers"
+		},
+		{
+			"path": "../keyboards"
+		},
+		{
+			"path": "../scanners"
+		},
+		{
+			"path": "../services"
+		}
+	]
+}
